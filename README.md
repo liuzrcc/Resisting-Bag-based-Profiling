@@ -15,7 +15,7 @@ You can select a MIL architecture from ```sett, deepset, attmil, or cnnvote```.
 To train a bag-based MIL classifier,
 
 ```
-python3 tainMIL.py --method sett --Emocat anger
+python3 tainMIL.py --method sett
 ```
 
 ## Attack bag-based classifiers
@@ -23,7 +23,7 @@ python3 tainMIL.py --method sett --Emocat anger
 To attack a trained bag-based classifier,
 
 ```
-python3 blackbox_attack.py --method sett --Emocat anger
+python3 blackbox_attack.py --method sett
 ```
 
 
