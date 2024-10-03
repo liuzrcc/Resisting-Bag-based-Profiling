@@ -24,7 +24,7 @@ import torchvision.models as models
 # Training settings
 parser = argparse.ArgumentParser(description='att MIL')
 parser.add_argument('--exp_path', default='exp/example/', help='exp_path')
-parser.add_argument('--method', default='attmil', help='attmil, deepset, sett, svit')
+parser.add_argument('--method', default='attmil', help='attmil, deepset, sett')
 parser.add_argument('--epochs', type=int, default=50, metavar='N',
                     help='number of epochs to train (default: 20)')
 parser.add_argument('--lr', type=float, default=0.0001, metavar='LR',
